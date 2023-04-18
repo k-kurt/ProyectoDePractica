@@ -1,0 +1,166 @@
+https://dev.to/sapardo/etiquetas-semanticas-de-html5-3j7m
+https://favicon.io/
+https://tablericons.com/
+https://app.netlify.com/
+
+
+las etiquetas nos ayuda a tener un default y despues personalizar con las clases o id
+h1,h2,h3,h4{
+    background-color: blue;
+}
+
+
+
+
+https://fonts.google.com/
+https://fontawesome.com/
+https://htmlcolorcodes.com/es/
+https://developer.mozilla.org/es/docs/Web/CSS/background-image      mdn web docs
+
+
+pase lo que pase con la ventana si usamos px va a quedar de gual manera por que relativo 
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+--------------------------------------------------clase 9----------------------------------------------
+la seudoclase es para generar un especie de evento a un elemento
+
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+
+https://developer.mozilla.org/es/docs/Web/CSS/:focus
+
+https://bennettfeely.com/clippy/
+
+https://animate.style
+
+
+
+--------------------------------------------------clase 10----------------------------------------------
+MEDIA QUERY para WEB RESPONSI
+    formato parecido a las funciones son las media QUERY
+    
+
+DISPLAY
+FLEX
+    la asignamos el flex al contenedor, con solo poner en el contenedor el display: flex; le estamos diciendo que los elementos los queremos horizontales de star al end
+    flex va el star que es por defecto, tambien puede end y center
+
+flex-direction
+    con el column se disponen de manera vertical
+    con el row se dispone uno al lado del otro que es el default
+    con el row-reverse el ultimo se pone al principio en horizontal
+    con el flex-wrap: wrap; agrega una fila cuando no entra mas elementos
+    con el flex-direction: column-reverse; pone en columna los elementos del ultimo al primero
+    con el Justify-content: center o end o star; star por defecto.
+    con el space around el espacio de los costados es la mitad de entre ellos
+    con el beetween solo hay espacio entre ellos
+    con el evenly es espacio es igual entre ellos y los bordes
+
+gap
+    gap: 1rem; separa los elementos entre ellos pero no del contenedor
+
+
+order
+    ordena el elemento donde querramos que este en comparacion con los demas, contando el 0
+
+
+aling-item
+    alinear verticalmente(acrox y)
+    strech ocupa todo el esapcio disponible
+    center  centro verticalmente
+    flex-end; lo pone al final de todo en la parte inferior halbando verticalmente
+    justify-content: center; aliena tanto vertical como horzaontalmente todo en el centro
+    
+
+
+Media Query
+	si queremos hacer responsive la pagina con el display: flex; y las media Query podemos jugar con eso
+
+Ej: 
+	@media screen and (max-width:375px){
+		.container{
+			flex-direction. column;
+		}
+	}
+
+antes estaban en display: flex; que ponia en horizontal los elementos, con el media Query con dispositivos moviles menor a 375px los
+elementos se ponen en posicion vertical
+
+
+
+------------------------------------------------------------------------PROYECTO DE PRACTICA-------------------------------------------------------------------------------------------------
+
+el nav puede esatr varias veces en la pagina, puede estar afuera o adentro del header, o el footer
+<a href="#id" > si pones numero mas un identificador nos llevara a la seccion a donde habremos agregado ese identificador, si dejamos el # solo nos dirijira a la misma pagina
+antes se usaba div para dividir por secciones la pagina, con html5 se usa el section y los elementos semanticos
+
+--ubaldo acosta desarrollo web
+float: left,right; 
+text-aling. center; centrar el texto
+border-radius: 10px 0 10px o; lo aplico al nav a{}; queda un lindo efecto con bordes opuestos redondeados en las etiquetas
+display: block; para que sean elementos en bloques
+border: 1px solid black; para ahcer un borde a una seccion por ej
+box-shadow: 1px o 4px rgb(0,0,0, .2); 1px para el eje x, o para el eje y, 4px en el blurd osea lo que se va a visualisar la sombra, un color rgb para la sombra con transparencia de un 20%
+box-shadow:inset 5px o 5px -5px rgb(0,0,0, .2); inset es para el efecto hacia adentro, eje x, eje y, blur=difuminar 5px, spread=propagar -5px
+footer{clear: both;
+}       limpia con los float de las etiquetas anteriores y posiciona el footer en la siguiente linea
+
+text-decoration: none; elimina la decoracion y la linea de hipervinculo en la etiqueta a
+
+box model es la envoltura en una caja en cada contenido, como contenido-padding-border-margin, el borde puede tener color
+
+box-sizing
+por defecto es el content-box; el elemento hijo que es el que modificamos el box model puede desvordar su contenedor que es su elemento padre
+border-box es el que ajusta el contenido al contenedor
+
+position(static, relative, absolute,sticky)
+            Es la posicion de un elemento en el documento; por default viene el static
+
+            relative
+                es relativo al contendedor, puede quedar un elemento superpuesto con otro
+
+            absolute
+                es relativo a la ventana, al html
+
+            fixed
+                deja fijo el elemento en la parte superior y sigue ahi auqnue bajemmos en la pagina, como el header, nav
+
+            stiky 
+                es uuna convinacion del fixed y relative, le asignamos un top 0 si queremos que se quede como un fixed cuando hagamos scroll
+                https://youtu.be/9VRkcnQ3GpA
+
+
+
+Pseudoclases
+    
+    Transitions
+        poner el Transitions en el contenedor padre, no en l :hoder por ejemplo
+
+    transform 
+        scale 
+        rotacion
+        etc
+
+
+background-image
+    se puede usar el background-repeat: no-repeat;
+    background-size: contain;
+
+
+animaciones con keyframes
+
+        #element_2{
+            animation-name:tresColores;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            line-height:150px;
+            color: #fff;
+        }
+
+        @keyframes tresColores{
+            0%{ background: #68C5DB}
+            33.3%{ background: #15022b}
+            66.6%{ background: #7e437b}
+            100%{ background: #c35b5b}
+        }

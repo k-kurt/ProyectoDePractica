@@ -1,0 +1,179 @@
+html{
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    background-color: rgba(134, 134, 134, 0.11);
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: stretch;
+}
+
+main{
+    width: 78%;
+    padding: 0em 0em 5em .5em;
+   
+    
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------seccion */
+
+
+header{
+    width: 100%;
+    height: 25vh;
+    justify-content: center;
+    text-align: center;
+    /* padding: 80px 20px 20px 20px; */
+    /* margin-bottom: 10px; */
+    border: solid rgb(29, 21, 21) .15em;
+    border-radius: 1em;
+    box-shadow: 0em 3em 3em rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    
+}
+header nav{
+    width: 20em;
+    height: 4em;
+    display: flex;
+    position: relative;
+    float: right;
+    top: -9vh;
+    /* box-shadow:inset 25px 1px 20px -5px rgba(180, 180, 180, 0.219); */
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 1em;
+    /* text-align: center; */
+    
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: .5em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+header h1{
+    
+    font-size: 6em;
+}
+
+h1{
+    color: rgb(255, 83, 16);
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------seccion */
+
+
+.seccion{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 5em;
+    border: solid rgb(29, 21, 21) .15em;
+    border-radius: 1em;
+    box-shadow: 0em 3em 3em rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1.7rem;
+}
+
+/* .tercera{
+    margin: 5em 0em 5em 3em;
+} */
+
+.seccion h2{
+    /* text-align: center; */
+    font-size: 2em;
+    color: coral;
+    margin-left: 2em;
+
+}
+
+.seccion p{
+    font-size: 1.7em;
+    color: rgb(51, 16, 4);
+    margin-left: 2em;
+}
+
+
+.div__contenedor{
+    display: flex;
+    justify-content: space-evenly;
+
+
+    
+}
+
+.div_imag{
+    width: 20vw;
+    height: 75vh;
+}
+
+div img{
+    display: block;
+   width: 100%;
+   height: 100%;
+   border-radius: 1em;
+   transition: all 0.9s;
+}     
+ 
+ img:hover{
+     
+   /*   width: 150%;
+     height: 150%;  */
+     transform: scale(130%);
+ }
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------aside */
+
+
+
+aside{
+    
+    width: 20%;
+    margin: 5em 0em 5em 0em;
+    border: solid rgb(29, 21, 21) .15em;
+    border-radius: 1em;
+    box-shadow: 0em 3em 3em rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    
+   
+    
+}
+/* aside section {
+    position: sticky;
+    position: fixed;
+   
+} */
+
+/* aside{
+    position: fixed;
+}
+
+aside section p{
+    position: sticky;
+   
+}
+ */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------footer */
+
+footer{
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
