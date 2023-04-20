@@ -21,6 +21,10 @@ main{
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------seccion */
 
+#header{
+    margin: 1em;
+}
+
 
 header{
     width: 100%;
@@ -29,9 +33,9 @@ header{
     text-align: center;
     /* padding: 80px 20px 20px 20px; */
     /* margin-bottom: 10px; */
-    border: solid rgb(29, 21, 21) .15em;
+    border: solid rgb(29, 21, 21) .1em;
     border-radius: 1em;
-    box-shadow: 0em 3em 3em rgb(2, 2, 2);
+    box-shadow: 0em 0em 2em rgb(2, 2, 2);
     background-color: rgb(255, 255, 255);
     
 }
@@ -78,9 +82,9 @@ h1{
     width: 100%;
     height: auto;
     margin-top: 5em;
-    border: solid rgb(29, 21, 21) .15em;
+    border: solid rgb(29, 21, 21) .1em;
     border-radius: 1em;
-    box-shadow: 0em 3em 3em rgb(2, 2, 2);
+    box-shadow: 0em 0em 2em rgb(2, 2, 2);
     background-color: rgb(255, 255, 255);
     padding-bottom: 1.7rem;
 }
