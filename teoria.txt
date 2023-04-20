@@ -89,6 +89,28 @@ elementos se ponen en posicion vertical
 
 
 
+
+--------------------------------------------------clase 11----------------------------------------------
+BOOSRAP
+    https://getbootstrap.com/
+
+    https://www.youtube.com/watch?v=QCw0L6FupQ0&t=1s 
+    curso de boostrap en youtube
+
+
+--------------------------------------------------clase 12----------------------------------------------
+GitHub
+
+https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agen
+
+
+
+
+
+
+
+
+
 ------------------------------------------------------------------------PROYECTO DE PRACTICA-------------------------------------------------------------------------------------------------
 
 el nav puede esatr varias veces en la pagina, puede estar afuera o adentro del header, o el footer
