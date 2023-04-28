@@ -106,6 +106,9 @@ BOOSRAP
     .container-fluid
             se adapta el 100% del hancho de la pantalla
 
+
+
+--------------------------------------------------------------------
     COTENEDORES RESPONSIVOS
 
         .container-sm 
@@ -118,14 +121,64 @@ BOOSRAP
             el contenedor lg es vomo un hibrido de los 2 ya que se comporta de las 2 formas dependiendo el tamaño de la pantalla
 
 
+--------------------------------------------------------------------
+
     ESTRUTURA DE LA GRID
 
     los elementos de una fila puedenocupar varias columnas.
     IMPORTANTE las columnas de los elementos de una fila deben sumar 12 para que esten ubicados en la misma linea.
     
 
+    <html>
+
+        <div class="container text-center">         para centrar el texto
+            <div class="row">
+                <div class="col">
+                    columna 1
+                </div> 
+                <div class="col">
+                    columna 2
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col">
+                    columna 1
+                </div> 
+                <div class="col">
+                    columna 2
+                </div> 
+                <div class="col">
+                    columna 3
+                </div> 
+            </div> 
+        </div>
+
+    </html>
 
 
+    <style>
+        .row{
+            background-color: orange;
+            border: 3px solid rgb(110,73,5);
+            padding: 5px,
+            margin: 10px;
+        }
+        
+        .col{
+            background-color: #d40655;
+            color: white;
+            font-size: 50px;
+            border: 2px solid #640328;
+        }  
+
+
+    </style>
+
+
+
+--------------------------------------------------------------------
+
+    LA GRID DE BOOSTRAP CON BREACKPOINTS
 
 
 
