@@ -182,9 +182,39 @@ BOOSRAP
 
 
 
+<html>
+    <body>
+        <div class="container text-center">         
+  <div class="row">
+      <div class="col-sm-4 col-lg-6 columna">       definimos con la clase sm-4 y lg-6 cuanto espacio ocupara el elemento
+          .col-sm-4 .col-lg-6
+      </div> 
+      <div class="col-sm-8 col-lg-6 columna">
+          .col-sm-8 .col-lg-6
+      </div> 
+  </div> 
+</div>
+    </body>
+</html>
+
+<style>
+        .row{
+            background-color: orange;
+            border: 3px solid rgb(110, 73, 5);
+            padding: 5px;
+            margin: 10px;    
+        }
+        
+
+        .columna {
+            color: white;
+            font-size: 25px;
+            background-color: #05077b;
+            border: 5px solid white;
+        }
 
 
-
+    </style>
 
 
 
