@@ -215,7 +215,7 @@ BOOSRAP
         }
         
 
-        .columna {
+        .columna {              podemos editar supuestamente con otras clases personalizadas
             color: white;
             font-size: 25px;
             background-color: #05077b;
@@ -226,6 +226,10 @@ BOOSRAP
     </style>
 
 
+
+--------------------------------------------------------------------
+
+    COMPONENTES DE BOOSTSTRAP
 
 
 
