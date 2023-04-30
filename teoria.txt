@@ -117,6 +117,15 @@ BOOSRAP
         .container-xl 
         .container-xxl
 
+
+        $container-max-widths: (
+            sm: 540px,
+            md: 720px,
+            lg: 960px,
+            xl: 1140px,
+            xxl: 1320px
+        );
+
             cubriran el 100% de la pantalla hasta que hagan el brackpoint
             el contenedor lg es vomo un hibrido de los 2 ya que se comporta de las 2 formas dependiendo el tamaño de la pantalla
 
