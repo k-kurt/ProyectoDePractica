@@ -232,6 +232,20 @@ BOOSRAP
     COMPONENTES DE BOOSTSTRAP
 
 
+        elementos de HTMl reutilizable que ya viene con un estilo prederteminado, tambien podemos 
+        personalizar el estilo
+
+
+        en el ejemplo del acordeon lo puse dentro de un div para darle la clase container para que no ocupara
+        toda la pantalla
+
+
+        
+
+
+
+
+min 1:36:53
 
 
 
