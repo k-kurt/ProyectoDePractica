@@ -241,11 +241,110 @@ BOOSRAP
 
 
         
+--------------------------------------------------------------------
+
+    ICONOS DE BOOSTSTRAP
+
+        https://icons.getbootstrap.com/ 
+
+        Podemos editar a los iconos con las propiedades del texto
+
+    
+        
+--------------------------------------------------------------------
+
+    FLEXBOX EN BOOSTSTRAP
+
+        asiganmos el flexbox a los contenedores con la clase "d-flex"
+
+    Flex-direction
+        row
+            fila
+        row-reverse
+            fila de atras para adelante
+        column  
+            columna
+        column-reverse    
+            columna de atras para delante
+
+        si es row el eje principal es el horizonal, y con el column el eje principal es vertical
+
+    Justify-content
+        define como se distribuye los elementos en el eje principal
+
+        flex-start
+
+        flex-end
+
+        center
+
+        space-between
+            va a dejar un espacio entre los elementos
+        space-around
+            espacio al rededor del conjunt de esos elementos
+        space-evenly
+            distribucion equitativa del espacio 
+
+        
+        sus derivados en bootstrap
+
+            .justify-content-start
+            .justify-content-end
+            .justify-content-center
+            .justify-content-between
+            .justify-content-around
+            .justify-content-evenly
+
+    Aling-items
+
+        es para el eje vertical, para distribuir los elementos verticalmente   
+            
+            flex-start
+
+            flex-end
+
+            center
+
+            baseline
+
+            stretch(estirar)
+                lo que hace es estirar el elemento para que ocupe el total del contenedor en el 
+                eje perpendicular al principal
+
+
+        tienen sus clases en BOOSTRAP
+            
+            .align-items-star
+            .align-items-end
+            .align-items-center
+            .align-items-baseline
+            .align-items-stretch
+
+
+
+    FLEX-WRAP
+        determina si los elementos deben ser ajustados para que siempre esten en una misma o si 
+        se les permite distribuirse en varias lineas si es necesario
+
+    FLEX-WRAP: nowrap
+        viene por defecto,nos dice que no deben distribuirse
+
+        tienen sus clases personalizadas
+
+            .flex-nowrap
+            .flex-wrap
+            .flex-wrap-reverse
+
+
+    
 
 
 
 
-min 1:36:53
+
+
+
+
 
 
 
