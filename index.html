@@ -23,20 +23,33 @@
 </head>
 
 <body>
-  <header class="container-fluid" id="header">
-
-    <h1>LOS ARISTOGATOS</h1>
-  
-      <nav>
-        <a href="#"><i class="fa-solid fa-cat" style="color: #8e4c01;"></i></a>
-        <a href="#"><i class="fa-solid fa-cat" style="color: #8b8b84;"></i></a>
-        <a href="#"><i class="fa-solid fa-cat" style="color: #92941e;"></i></a>
-      </nav>
+  <nav class="navbar ">
+    <div class="container-fluid d-flex justify-content-center align-content-center">
+      <a class="navbar-brand" href="#">
+        <img src="img/favicon.ico" alt="Logo" width="100" height="100" class="d-inline-block "> 
+        <h1 class="d-inline-block" >LOS ARISTOGATOS</h1> 
+      </a>
+    </div>
+  </nav>
    
+    <div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><a href="#aurinchis"><i class="fa-solid fa-cat" style="color: #8e4c01;"></i></a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a href="#horus"><i class="fa-solid fa-cat" style="color: #8b8b84;"></i></a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> <a href="#paulino"><i class="fa-solid fa-cat" style="color: #92941e;"></i></a></button>
+        </li>
 
-  </header>
+      
+    </div>
+
+
   <main class="container text-center">
-    <section class="row">
+    <section class="row" id="aurinchis">
       <article class="">
         <h2> AURINCHIS</h2>
       </article>
@@ -48,18 +61,18 @@
         </p>
         <div class="row">
          <div class="col-lg-4 columna" id="-img">
-          <img src="img/aurinchis.jpg"   alt="el aurinchis">
+          <img class="img-gatos" src="img/aurinchis.jpg"   alt="el aurinchis">
          </div>
          <div class="col-lg-4 columna" id="-img">
-          <img src="img/aurinchis2.jpg"   alt="el aurinchis">
+          <img class="img-gatos" src="img/aurinchis2.jpg"   alt="el aurinchis">
          </div>
          <div class="col-lg-4 columna" id="-img">
-          <img src="img/aurinchis3.jpg"   alt="el aurinchis">
+          <img class="img-gatos" src="img/aurinchis3.jpg"   alt="el aurinchis">
          </div>
       </div>
       </article>
     </section>
-    <section class="row">
+    <section class="row" id="horus">
       <article>
         <H2> HORUS</H2>
       </article>
@@ -71,18 +84,18 @@
         </p>
         <div class="row">
           <div class="col-lg-4 columna" id="-img">
-            <img src="img/horus.jpg" alt="el horus">
+            <img class="img-gatos" src="img/horus.jpg" alt="el horus">
           </div>
           <div class="col-lg-4 columna" id="-img">
-            <img src="img/horus3.jpg" alt="el horus">
+            <img class="img-gatos" src="img/horus3.jpg" alt="el horus">
           </div>
           <div class="col-lg-4 columna" id="-img">
-            <img src="img/horus2.jpg" alt="el horus">
+            <img class="img-gatos" src="img/horus2.jpg" alt="el horus">
           </div>
       </div>
       </article>
     </section>
-    <section class="row">
+    <section class="row" id="paulino">
       <article>
         <H2> PAULINO</H2>
       </article>
@@ -94,13 +107,13 @@
         </p>
         <div class="row">
           <div class="col-lg-4 columna" id="-img">
-            <img  src="img/paulino.jpg"  alt="el paulino">
+            <img class="img-gatos" src="img/paulino.jpg"  alt="el paulino">
           </div>
           <div class="col-lg-4 columna"id="-img">
-            <img  src="img/paulino2.jpg" alt="el paulino">
+            <img class="img-gatos" src="img/paulino2.jpg" alt="el paulino">
           </div>
           <div class="col-lg-4 columna" id="-img">
-            <img  src="img/paulino3.jpg" alt="el paulino">
+            <img class="img-gatos" src="img/paulino3.jpg" alt="el paulino">
           </div>
         </div>
       </article>
